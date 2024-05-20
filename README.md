@@ -3,7 +3,7 @@
 Command-line tool to create time entries in Redmine based on Redmine issue's journal activity and changesets. Written in Groovy, runnable with Java 17.
 
 ## How to run:
-After git clone, run mvn clean package in the root directory.
+After git clone, run `mvn clean package` in the root directory.
 
 `java -jar "<path to root dir>\target\redmine-time-logger-1.0-SNAPSHOT.jar" "<path to redmine-config.json>" "<path to user-config.json>"`
 
